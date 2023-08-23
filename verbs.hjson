@@ -42,7 +42,7 @@ verbs: [
     {
         invocation: touch {subpath}
         shortcut: t
-        execution: "touch {directory}/{subpath} && echo {directory}/{subpath}"
+        execution: "touch {directory}/{subpath}"
         leave_broot: false
     }
 

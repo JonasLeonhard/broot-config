@@ -80,6 +80,7 @@ show_selection_mark: true
 #
 special_paths: {
     "/media" : "no-enter" // comment it if desired
+    "*/.git": "hide"
     # "/media/slow-backup-disk"    : no-enter
     # "/home/dys/useless"    : hide
     # "/home/dys/my-link-I-want-to-explore"    : enter
@@ -155,7 +156,7 @@ content_search_max_file_size: 10MB
 # (see https://dystroy.org/broot/icons for installation and
 # troubleshooting)
 #
-# icon_theme: "vscode"
+icon_theme: "vscode"
 
 ###############################################################
 # Imports

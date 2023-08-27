@@ -80,7 +80,14 @@ show_selection_mark: true
 #
 special_paths: {
     "/media" : "no-enter" // comment it if desired
-    "*/.git": "hide"
+    "*/.git": "no-enter",
+    "*/node_modules": "no-enter",
+    "*/vendor": "no-enter",
+    "*/.svelte-kit": "no-enter",
+    "*/dist": "no-enter",
+    "*/target": "no-enter",
+    "*/debug": "no-enter",
+    "*/release": "no-enter",
     # "/media/slow-backup-disk"    : no-enter
     # "/home/dys/useless"    : hide
     # "/home/dys/my-link-I-want-to-explore"    : enter

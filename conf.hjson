@@ -88,7 +88,7 @@ special_paths: {
     "*/target": "no-enter",
     "*/debug": "no-enter",
     "*/release": "no-enter",
-    "*/.DS_Store": "no-enter",
+    "*/.DS_Store": "hide",
     # "/media/slow-backup-disk"    : no-enter
     # "/home/dys/useless"    : hide
     # "/home/dys/my-link-I-want-to-explore"    : enter

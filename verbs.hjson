@@ -47,6 +47,13 @@ verbs: [
     }
 
     {
+        invocation: open
+        shortcut: o
+        execution: "open {file}"
+        leave_broot: false
+    }
+
+    {
         invocation: git_diff
         shortcut: gd
         leave_broot: false

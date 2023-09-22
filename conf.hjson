@@ -166,6 +166,8 @@ content_search_max_file_size: 10MB
 #
 icon_theme: "nerdfont"
 
+syntax_theme: "CatppuccinMocha"
+
 ###############################################################
 # Imports
 #

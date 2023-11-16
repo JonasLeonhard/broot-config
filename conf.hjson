@@ -89,6 +89,7 @@ special_paths: {
     "*/debug": "no-enter",
     "*/release": "no-enter",
     "*/build": "no-enter",
+    "*/tmp": "no-enter",
     "*/.DS_Store": "hide",
     # "/media/slow-backup-disk"    : no-enter
     # "/home/dys/useless"    : hide

@@ -90,6 +90,7 @@ special_paths: {
     "*/release": "no-enter",
     "*/build": "no-enter",
     "*/tmp": "no-enter",
+    "*/.next": "no-enter",
     "*/.DS_Store": "hide",
     # "/media/slow-backup-disk"    : no-enter
     # "/home/dys/useless"    : hide

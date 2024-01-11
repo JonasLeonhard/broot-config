@@ -39,7 +39,8 @@ default_flags: ghi
 # (you really should read https://dystroy.org/broot/modal/
 # before as it may not suit everybody even among vim users)
 #
-modal: false
+modal: true
+initial_mode: input
 
 ###############################################################
 # Whether to mark the selected line with a triangle
